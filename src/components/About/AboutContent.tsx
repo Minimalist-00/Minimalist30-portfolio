@@ -8,6 +8,7 @@ import {
   VStack,
   Divider,
 } from '@chakra-ui/react'
+import Carousel from './Carousel'
 
 const AboutContent = () => {
   return (
@@ -34,6 +35,7 @@ const AboutContent = () => {
         </GridItem>
       </Grid>
       <Divider />
+      <Carousel />
     </Box>
   )
 }
