@@ -17,7 +17,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         mx="auto" // 横方向の中央寄せを行う
         mt="20px" // 上部の余白を設定
         p="20px" // コンテンツ内の余白を設定
-        bg="pink" // 背景色を設定
+        bg="white" // 背景色を設定
       >
         <Box>{children}</Box>
       </Box>
