@@ -1,21 +1,23 @@
-import { Box, HStack, Spacer, Flex } from '@chakra-ui/react'
+import { Box, HStack, Spacer, Flex, SimpleGrid } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/next-js'
 
 const Header = () => {
   return (
-    <Box>
-      <Flex align="center" p={4}>
+    <Box bg="gray.100">
+      <SimpleGrid columns={3} spacing={10} pt="16" pb="20">
         <Box>
-          <Link href="/">Home</Link>
+          <Link href="/">Minimalist30</Link>
         </Box>
-        <Spacer />
-        <HStack spacing={8}>
-          <Link href="/about">About</Link>
-          <Link href="/resume">Resume</Link>
-          <Link href="/portfolio">Portfolio</Link>
-          <Link href="/contact">Contact</Link>
-        </HStack>
-      </Flex>
+        <Box>
+          <HStack spacing={8} justify="space-between">
+            <Link href="/about">About</Link>
+            <Link href="/resume">Resume</Link>
+            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/contact">Contact</Link>
+          </HStack>
+        </Box>
+        <Box />
+      </SimpleGrid>
     </Box>
   )
 }

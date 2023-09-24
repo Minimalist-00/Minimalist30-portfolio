@@ -3,3 +3,4 @@
  * そのライブラリの型定義ファイルを作成するためのファイル
  */
 declare module '@splidejs/react-splide'
+declare module '*.scss'

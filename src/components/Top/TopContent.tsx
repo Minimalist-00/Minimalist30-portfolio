@@ -6,7 +6,7 @@ const TopContent = () => {
       <Grid templateColumns={{ base: '1fr', md: '1fr 1fr' }}>
         <GridItem>
           <Heading>Minimalist30</Heading>
-          <Text>
+          <Text fontSize={['3vh']} fontWeight="bold">
             「当店（当サイト）にご来店いただき、誠にありがとうございます。私
             Minimalist30 こと、中川航輝
             についてより知っていただきたく、このサイトを作成しました。ごゆるりとご覧くださいませ。」
@@ -14,8 +14,8 @@ const TopContent = () => {
         </GridItem>
         <GridItem justifySelf="center">
           <Image
-            src="/img/face.jpg"
-            boxSize="300px"
+            src="/img/myIcon.png"
+            boxSize="350px"
             h="full"
             alt="Koki Nakagawa"
           />

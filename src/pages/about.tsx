@@ -5,7 +5,7 @@ import MyField from '@/components/About/MyField'
 
 const about = () => {
   return (
-    <Box>
+    <Box h="10000">
       <AboutTopArea />
       <Divider mb="5" />
       <Carousel />
