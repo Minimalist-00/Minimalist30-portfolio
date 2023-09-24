@@ -1,15 +1,7 @@
-import {
-  Box,
-  Grid,
-  GridItem,
-  Heading,
-  Image,
-  Text,
-  VStack,
-  Divider,
-} from '@chakra-ui/react'
+import { Box, Divider } from '@chakra-ui/react'
 import Carousel from '@/components/About/Carousel'
 import AboutTopArea from '@/components/About/AboutOverview'
+import MyField from '@/components/About/MyField'
 
 const about = () => {
   return (
@@ -17,6 +9,7 @@ const about = () => {
       <AboutTopArea />
       <Divider mb="5" />
       <Carousel />
+      <MyField />
     </Box>
   )
 }

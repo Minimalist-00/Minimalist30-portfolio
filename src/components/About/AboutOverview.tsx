@@ -1,12 +1,4 @@
-import {
-  Box,
-  Grid,
-  GridItem,
-  Heading,
-  Image,
-  Text,
-  VStack,
-} from '@chakra-ui/react'
+import { Grid, GridItem, Heading, Image, Text, VStack } from '@chakra-ui/react'
 
 const AboutTopArea = () => {
   return (

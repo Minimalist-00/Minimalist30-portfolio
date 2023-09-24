@@ -9,16 +9,9 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <Box maxW="1100px" mx="auto" bg="gray.100" mt="50px">
+    <Box maxW="1100px" mx="auto" bg="#fff" mt="50px" pb="30px">
       <Header />
-      <Box
-        as="main"
-        maxW="900px" // メインコンテンツの最大横幅を設定
-        mx="auto" // 横方向の中央寄せを行う
-        mt="20px" // 上部の余白を設定
-        p="20px" // コンテンツ内の余白を設定
-        bg="white" // 背景色を設定
-      >
+      <Box as="main" maxW="900px" mx="auto" mt="20px" p="20px">
         <Box>{children}</Box>
       </Box>
       <Footer />
