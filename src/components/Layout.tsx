@@ -9,7 +9,7 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <Box maxW="1200px" mx="auto" bg="#fff" boxShadow="lg" minHeight="100vh">
+    <Box maxW="1164px" mx="auto" bg="#fff" boxShadow="lg" minHeight="100vh">
       <Header />
       <Box as="main" maxW="1248px" mx="auto" p="20px" border="1px">
         <Box>{children}</Box>

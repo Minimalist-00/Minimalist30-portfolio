@@ -18,7 +18,7 @@ const theme = extendTheme({
 
 export default function App({ Component, pageProps }: AppProps) {
   const { x, y } = useMousePosition()
-  const size = 100
+  const size = 40
 
   return (
     <ChakraProvider theme={theme}>

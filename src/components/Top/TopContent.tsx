@@ -5,7 +5,10 @@ const TopContent = () => {
     <Box>
       <Grid templateColumns={{ base: '1fr', md: '1fr 1fr' }}>
         <GridItem>
-          <Heading>Minimalist30</Heading>
+          <Heading>
+            <span>Hi!</span> <span>I&apos;m Minimalist30</span>
+          </Heading>
+
           <Text fontSize={['3vh']} fontWeight="bold">
             「当店（当サイト）にご来店いただき、誠にありがとうございます。私
             Minimalist30 こと、中川航輝
