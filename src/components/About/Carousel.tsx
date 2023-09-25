@@ -18,11 +18,11 @@ const Carousel = () => {
 
   const sliderOptions = {
     type: 'loop',
-    gap: '10px',
+    gap: '20px',
     drag: 'free',
     arrows: false,
     pagination: false,
-    perPage: 5,
+    perPage: 4,
     autoScroll: {
       pauseOnHover: false,
       pauseOnFocus: false,
@@ -46,8 +46,9 @@ const Carousel = () => {
               style={{
                 display: 'block',
                 width: '100%',
-                height: '80%',
+                height: '70%',
                 objectFit: 'cover',
+                padding: '20px',
               }}
             />
           </SplideSlide>
