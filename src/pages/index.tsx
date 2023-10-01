@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>
+    <div className="mx-auto lg:max-w-main">
       <Head>
         <title>Minimalist30</title>
         <meta name="description" content="説明が入ります" />

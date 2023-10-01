@@ -1,9 +1,11 @@
-import AboutTopArea from '@/components/About/AboutOverview'
+import AboutOverview from '@/components/About/AboutOverview'
+import MyBio from '@/components/About/MyBio'
 
 const about = () => {
   return (
     <div>
-      <AboutTopArea />
+      <AboutOverview />
+      <MyBio />
     </div>
   )
 }

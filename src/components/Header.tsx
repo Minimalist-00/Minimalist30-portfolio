@@ -8,7 +8,7 @@ const Header = () => {
   const activeStyle = 'text-blue-500'
 
   return (
-    <header className="pt-8">
+    <header className="pt-8 lg:max-w-main mx-auto">
       <div className="flex justify-between items-center mx-auto container">
         <div className="h-12">
           <Link href="/">
