@@ -1,7 +1,6 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide'
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll'
 import '@splidejs/splide/css'
-import { Box, Image } from '@chakra-ui/react'
 
 const Carousel = () => {
   const slideImages = [
@@ -32,7 +31,7 @@ const Carousel = () => {
   }
 
   return (
-    <Box>
+    <div>
       <Splide
         aria-label="思い出"
         options={sliderOptions}
@@ -40,7 +39,7 @@ const Carousel = () => {
       >
         {slideImages.map((imageSrc, index) => (
           <SplideSlide key={index}>
-            <Image
+            <img
               alt="画像"
               src={imageSrc}
               style={{
@@ -54,7 +53,7 @@ const Carousel = () => {
           </SplideSlide>
         ))}
       </Splide>
-    </Box>
+    </div>
   )
 }
 

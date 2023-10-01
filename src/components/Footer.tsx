@@ -1,27 +1,26 @@
-import { Box, HStack, Image } from '@chakra-ui/react'
-import { Link } from '@chakra-ui/next-js'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <Box as="footer" pt="20px">
-      <HStack spacing={4} align="center" justify="center">
+    <footer className="pt-5">
+      <div className="flex justify-center space-x-4">
         <Link href="https://twitter.com/Minimalist_30">
-          <Image src="/icons/Twitter.svg" alt="Twitter" boxSize="24px" />
+          <img src="/icons/Twitter.svg" alt="Twitter" className="w-6 h-6" />
         </Link>
         <Link href="/">
-          <Image src="/icons/GitHub.svg" alt="GitHub" boxSize="24px" />
+          <img src="/icons/GitHub.svg" alt="GitHub" className="w-6 h-6" />
         </Link>
         <Link href="/">
-          <Image src="/icons/Instagram.svg" alt="Instagram" boxSize="24px" />
+          <img src="/icons/Instagram.svg" alt="Instagram" className="w-6 h-6" />
         </Link>
         <Link href="/">
-          <Image src="/icons/Linkedin.svg" alt="Linkedin" boxSize="24px" />
+          <img src="/icons/Linkedin.svg" alt="Linkedin" className="w-6 h-6" />
         </Link>
         <Link href="/">
-          <Image src="/icons/Dribbble.svg" alt="Dribbble" boxSize="24px" />
+          <img src="/icons/Dribbble.svg" alt="Dribbble" className="w-6 h-6" />
         </Link>
-      </HStack>
-    </Box>
+      </div>
+    </footer>
   )
 }
 

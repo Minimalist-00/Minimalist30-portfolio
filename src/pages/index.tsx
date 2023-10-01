@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import { Box } from '@chakra-ui/react'
 import TopContent from '@/components/Top/TopContent'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Box as="main">
+    <div>
       <Head>
         <title>Minimalist30</title>
         <meta name="description" content="説明が入ります" />
@@ -15,6 +14,6 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopContent />
-    </Box>
+    </div>
   )
 }

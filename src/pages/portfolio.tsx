@@ -1,7 +1,5 @@
-import { Box } from '@chakra-ui/react'
-
 const portfolio = () => {
-  return <Box></Box>
+  return <div></div>
 }
 
 export default portfolio

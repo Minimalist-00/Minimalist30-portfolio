@@ -1,55 +1,44 @@
-import {
-  Box,
-  Grid,
-  GridItem,
-  Heading,
-  Text,
-  Image,
-  Divider,
-} from '@chakra-ui/react'
+import Image from 'next/image'
 import Carousel from '../About/Carousel'
 
 const TopContent = () => {
   return (
-    <Box>
-      <Grid templateColumns={{ base: '1fr', md: '1fr 1fr' }}>
-        <GridItem justifySelf="center" boxSize={450}>
-          <Image
-            src="/img/myIconCover.svg" // 後ろの画像のパスを指定
-            alt="Koki Nakagawa"
-            position="absolute" // 画像の位置を絶対位置に変更
-            transform="translate(15px, 15px)" // 画像を右下にずらす
-          />
-          <Image
-            src="/img/myIconCoverWhite.svg"
-            alt="Koki Nakagawa"
-            position="absolute"
-          />
-          <Image
-            src="/img/myIcon.svg"
-            alt="Koki Nakagawa"
-            position="absolute"
-            zIndex={1}
-          />
-        </GridItem>
-        <GridItem>
-          <Text fontSize={'xl'} fontWeight="Bold" pb={1}>
-            Hi, I am
-          </Text>
-          <Text fontSize={60} fontWeight="bold">
-            Minimalist30
-          </Text>
-          <Text fontSize={'xl'} fontWeight="bold" color="#585858">
+    <div>
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="self-center">
+          <div className="relative h-96 w-96">
+            <Image
+              src="/img/myIconCover.svg"
+              alt="Koki Nakagawa"
+              layout="fill"
+              objectFit="cover"
+            />
+            <Image
+              src="/img/myIconCoverWhite.svg"
+              alt="Koki Nakagawa"
+              layout="fill"
+            />
+            <Image
+              src="/img/myIcon.svg"
+              alt="Koki Nakagawa"
+              layout="fill"
+              className="z-10"
+            />
+          </div>
+        </div>
+        <div>
+          <p className="text-xl font-bold pb-1">Hi, I am</p>
+          <p className="text-6xl font-bold">Minimalist30</p>
+          <p className="text-xl font-bold text-gray-600">
             Student / Frontend developer
-          </Text>
-          <Text fontSize={'sm'} fontWeight="bold" color="#555">
+          </p>
+          <p className="text-sm font-bold text-gray-700">
             テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります
-          </Text>
-        </GridItem>
-      </Grid>
-      <Divider mb="5" />
+          </p>
+        </div>
+      </div>
       <Carousel />
-    </Box>
+    </div>
   )
 }
 

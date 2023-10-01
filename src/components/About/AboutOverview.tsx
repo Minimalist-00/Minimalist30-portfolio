@@ -1,28 +1,25 @@
-import { Grid, GridItem, Heading, Image, Text, VStack } from '@chakra-ui/react'
-
 const AboutTopArea = () => {
   return (
-    <Grid templateColumns={{ base: '1fr', md: '1fr 1fr' }} pb="5">
-      <GridItem>
-        <VStack spacing={4}>
-          <Heading>About</Heading>
-          <Text fontSize="lg">
+    <div className="grid grid-cols-1 md:grid-cols-2 pb-5">
+      <div>
+        <div className="space-y-4">
+          <h1 className="text-3xl font-semibold">About</h1>
+          <p className="text-lg">
             ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。
-          </Text>
-          <Text fontSize="sm">
+          </p>
+          <p className="text-sm">
             ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。ここに説明が入ります。
-          </Text>
-        </VStack>
-      </GridItem>
-      <GridItem justifySelf="center">
-        <Image
+          </p>
+        </div>
+      </div>
+      <div className="self-center justify-self-center">
+        <img
           src="/img/face.jpg"
-          boxSize="300px"
-          h="full"
+          className="w-72 h-72 object-cover"
           alt="Koki Nakagawa"
         />
-      </GridItem>
-    </Grid>
+      </div>
+    </div>
   )
 }
 
