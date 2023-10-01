@@ -4,7 +4,7 @@
 
 ### Technology
 
-[![My Skills](https://skillicons.dev/icons?i=ts,nextjs,nodejs)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ts,nextjs,nodejs,tailwindcss,headlessui)](https://skillicons.dev)
 
 - Notion API（DB として）
 - Chakra UI（UI コンポーネントライブラリ）
