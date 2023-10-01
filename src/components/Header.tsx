@@ -17,7 +17,7 @@ const Header = () => {
   }
 
   return (
-    <Box bg="gray.100" pt={8} pb={16} mx={10}>
+    <Box pt={6} pb={16}>
       <SimpleGrid columns={3} spacing={10} alignItems="center">
         <Box height={16}>
           <Link href="/">
@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
         </Box>
         <Box>
-          <HStack spacing={8} justify="space-between">
+          <HStack spacing={2} justify="space-between">
             <Box>
               <Link
                 href="/about"

@@ -7,8 +7,6 @@ const about = () => {
   return (
     <Box h="10000">
       <AboutTopArea />
-      <Divider mb="5" />
-      <Carousel />
       <MyField />
     </Box>
   )
