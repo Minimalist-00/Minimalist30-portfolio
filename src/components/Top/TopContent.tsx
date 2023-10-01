@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Carousel from '../About/Carousel'
+import Carousel from './Carousel'
 
 const TopContent = () => {
   return (
