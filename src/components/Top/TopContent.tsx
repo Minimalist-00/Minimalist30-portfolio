@@ -9,8 +9,8 @@ const TopContent = () => {
           <Image
             src="/img/myIconImg.svg"
             alt="Koki Nakagawa"
-            width={340}
-            height={340}
+            width={300}
+            height={300}
           />
         </div>
         <div className="w-[440px]">
