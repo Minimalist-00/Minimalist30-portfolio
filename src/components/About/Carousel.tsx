@@ -33,7 +33,7 @@ const Carousel = () => {
   return (
     <div>
       <Splide
-        aria-label="思い出"
+        aria-label="Carousel"
         options={sliderOptions}
         extensions={{ AutoScroll }}
       >
@@ -47,7 +47,10 @@ const Carousel = () => {
                 width: '100%',
                 height: '70%',
                 objectFit: 'cover',
-                padding: '20px',
+                paddingRight: '10px',
+                paddingLeft: '10px',
+                paddingBottom: '10px',
+                paddingTop: '10px',
               }}
             />
           </SplideSlide>

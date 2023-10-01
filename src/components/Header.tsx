@@ -5,13 +5,12 @@ const Header = () => {
   const router = useRouter()
 
   const itemClasses = 'font-bold'
-  const hoverItemClasses = 'hover:text-blue-500'
   const activeStyle = 'text-blue-500'
 
   return (
-    <header className="pt-6 pb-16">
-      <div className="flex items-center justify-between">
-        <div className="h-16">
+    <header className="pt-8">
+      <div className="flex justify-between items-center mx-auto container">
+        <div className="h-12">
           <Link href="/">
             <img
               src="minimalist30_logo.png"
