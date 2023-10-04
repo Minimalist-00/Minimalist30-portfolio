@@ -3,8 +3,8 @@ import SkillCard from "./SkillCard"
 const MySkill = () => {
 
   return (
-    <div className="h-[500px] w-screen bg-white">
-      <div className="lg:max-w-main mx-auto pt-14">
+    <div className="w-screen bg-white pt-14 pb-14">
+      <div className="lg:max-w-main mx-auto">
         <section>
           <div className="flex items-center pb-8">
             <rect className="w-3 h-10 bg-blue mr-2" />
@@ -26,7 +26,6 @@ const MySkill = () => {
           <SkillCard />
 
         </section>
-        <div>{/* 学校のロゴや研究室のロゴを載せる */}</div>
       </div>
     </div>
   )
