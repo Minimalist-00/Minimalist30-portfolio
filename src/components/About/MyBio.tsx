@@ -1,7 +1,7 @@
 
 const MyBio = () => {
   return (
-    <div className="w-screen bg-blue-lt pt-14 pb-14">
+    <div className="bg-blue-lt pt-14 pb-14">
       <div className="lg:max-w-main mx-auto grid grid-cols-2">
         <section>
           <div className="flex items-center pb-8">

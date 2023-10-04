@@ -1,6 +1,6 @@
 const AboutOverview = () => {
   return (
-    <div className="w-screen shadow-2xl">
+    <div className="shadow-sm">
       <div className={`
       lg:max-w-main mx-auto
       grid grid-cols-1 md:grid-cols-2

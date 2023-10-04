@@ -3,7 +3,7 @@ import SkillCard from "./SkillCard"
 const MySkill = () => {
 
   return (
-    <div className="w-screen bg-white pt-14 pb-14">
+    <div className=" bg-white pt-14 pb-14">
       <div className="lg:max-w-main mx-auto">
         <section>
           <div className="flex items-center pb-8">
@@ -27,7 +27,7 @@ const MySkill = () => {
 
         </section>
       </div>
-    </div>
+    </div >
   )
 }
 
