@@ -1,3 +1,5 @@
+import Heading from "../Heading";
+
 const MyHobby = () => {
 
   const data = [
@@ -21,10 +23,7 @@ const MyHobby = () => {
   return (
     <div className="bg-blue-lt pt-14 pb-14">
       <div className="lg:max-w-main mx-auto">
-        <div className="flex items-center pb-14">
-          <rect className="w-3 h-10 bg-blue mr-2" />
-          <h2 className="text-3xl font-bold pt-1">Hobby</h2>
-        </div>
+        <Heading title="Hobby" />
         <section>
           {data.map((item, index) => (
             <div key={index} className="mb-16 flex justify-between">

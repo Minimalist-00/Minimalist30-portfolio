@@ -5,7 +5,7 @@ import MySkill from '@/components/About/MySkill'
 
 const about = () => {
   return (
-    <div className="max-w-full">
+    <div>
       <AboutOverview />
       <MyBio />
       <MySkill />
