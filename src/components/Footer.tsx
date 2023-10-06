@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center space-x-4">
+    <footer className="flex justify-center space-x-4 py-16">
       <Link href="https://twitter.com/Minimalist_30">
         <img src="/icons/Twitter.svg" alt="Twitter" className="w-6 h-6" />
       </Link>

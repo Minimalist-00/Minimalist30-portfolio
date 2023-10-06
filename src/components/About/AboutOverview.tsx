@@ -1,6 +1,6 @@
 const AboutOverview = () => {
   return (
-    <div className="shadow-sm">
+    <div className="shadow-md z-10 relative">
       <div className={`
       lg:max-w-main mx-auto
       grid grid-cols-1 md:grid-cols-2

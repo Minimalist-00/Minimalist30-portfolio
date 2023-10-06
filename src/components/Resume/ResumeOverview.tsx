@@ -1,6 +1,6 @@
 const ResumeOverview = () => {
   return (
-    <div className="shadow-sm">
+    <div className="shadow-md">
       <div className={`
     lg:max-w-main mx-auto
     grid grid-cols-1 md:grid-cols-2
@@ -18,7 +18,10 @@ const ResumeOverview = () => {
           </div>
         </section>
         <div className="self-center justify-self-center">
-
+          <img
+            src="Resume.svg"
+            alt="resumeImage"
+          />
         </div>
       </div>
     </div>
