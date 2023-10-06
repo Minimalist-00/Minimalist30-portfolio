@@ -71,7 +71,7 @@ const PortfolioList = () => {
 
   return (
     <div>
-      <div className="lg:max-w-main mx-auto pt-14 pb-14">
+      <div className="lg:max-w-main mx-auto pt-14">
         <section>
           <div className="grid grid-cols-3 gap-4">
             {cardsData.map((card, index) => (
