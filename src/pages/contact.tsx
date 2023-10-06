@@ -1,5 +1,11 @@
+import ContactOverview from "@/components/Contact/ContactOverview"
+
 const contact = () => {
-  return <div>contact</div>
+  return (
+    <>
+      <ContactOverview />
+    </>
+  )
 }
 
 export default contact
