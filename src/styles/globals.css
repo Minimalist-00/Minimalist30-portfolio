@@ -2,5 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer componets {
+img {
+  pointer-events: none;
 }

@@ -1,9 +1,11 @@
-import ContactOverview from "@/components/Contact/ContactOverview"
+import ContactForm from '@/components/Contact/ContactForm'
+import ContactOverview from '@/components/Contact/ContactOverview'
 
 const contact = () => {
   return (
     <>
       <ContactOverview />
+      <ContactForm />
     </>
   )
 }

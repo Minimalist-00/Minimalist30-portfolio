@@ -1,11 +1,13 @@
 const AboutOverview = () => {
   return (
     <div className="shadow-md z-10 relative">
-      <div className={`
+      <div
+        className={`
       lg:max-w-main mx-auto
       grid grid-cols-1 md:grid-cols-2
       pb-5 h-[460px]
-      `}>
+      `}
+      >
         <section>
           <div>
             <h1 className="text-[80px] font-bold">About</h1>
